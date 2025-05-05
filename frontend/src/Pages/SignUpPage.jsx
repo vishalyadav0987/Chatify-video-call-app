@@ -2,7 +2,6 @@ import { useState } from "react";
 import { ShipWheelIcon } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import toast from "react-hot-toast";
 import axiosInstance from "../utils/axios";
 
 

@@ -4,7 +4,7 @@ import { Link } from "react-router";
 import { CheckCircleIcon, MapPinIcon, UserPlusIcon, UsersIcon } from "lucide-react";
 
 
-import FriendCard, { getLanguageFlag } from "../components/FriendCard";
+import FriendCard, { getLanguageFlag } from "../Components/FriendCard";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import axiosInstance from "../utils/axios";
 import toast from "react-hot-toast";
